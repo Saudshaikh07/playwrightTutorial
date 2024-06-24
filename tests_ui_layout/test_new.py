@@ -5,8 +5,7 @@ from playwright.sync_api import Playwright, sync_playwright, expect
 @pytest.mark.parametrize("email, password", [("standard_user", "secret_sauce"),
                                              ("problem_user", "secret_sauce"),
                                              ("performance_glitch_user", "secret_sauce")])
-def test_sauce_demo(set_up, email, password):
-    page = set_up
+def test_sauce_demo_new(page, email, password):
     page.goto("https://www.saucedemo.com/v1/")
     page.get_by_text("Accepted usernames are: standard_user locked_out_user problem_user performance_g").click()
     page.locator("[data-test=\"username\"]").click()
@@ -20,12 +19,4 @@ def test_sauce_demo(set_up, email, password):
         if '$29.99' in price.text_content():
             print('This is the price for backpack')
 
-    # Difference between assert and expect
-    # value = page.get_by_text("© 2020 Sauce Labs. All Rights").is_hidden()
-    # value = expect(page.locator("text=© 2020 Sauce Labs. All Rights")).to_be_visible()
-
-    # #Waits
-    # page.wait_for_load_state()
-    # assert page.is_visible('//*[@id="inventory_filter_container"]/div')
-
-    # ---------------------
+    assert page.locator("text=Products").is_visible()

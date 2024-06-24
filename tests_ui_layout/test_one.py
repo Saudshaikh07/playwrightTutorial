@@ -5,10 +5,9 @@ from playwright.sync_api import Playwright, sync_playwright, expect
 
 
 @pytest.mark.smoke
-def test_login(playwright: Playwright) -> None:
-    browser = playwright.chromium.launch(headless=False, slow_mo=500)
-    context = browser.new_context()
-    page = context.new_page()
+@pytest.fixture
+def test_login(set_up):
+    page = set_up
     page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
     page.wait_for_load_state("networkidle")
     page.get_by_placeholder("Username").click()
@@ -22,5 +21,3 @@ def test_login(playwright: Playwright) -> None:
     assert page.is_visible("text=Dashboard")  # Dashboard page
     print("Test Passed!!!")
     # ---------------------
-    context.close()
-    browser.close()

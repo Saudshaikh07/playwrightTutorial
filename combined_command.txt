@@ -1,0 +1,1 @@
+pytest --maxfail=2 -m regression --template=html1/index.html --report=regression_report.html -n auto
