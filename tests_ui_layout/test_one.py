@@ -3,6 +3,8 @@ import re
 import pytest
 from playwright.sync_api import Playwright, sync_playwright, expect
 
+import utils.secret_config
+
 
 @pytest.mark.smoke
 @pytest.fixture
@@ -13,7 +15,7 @@ def test_login(set_up):
     page.get_by_placeholder("Username").click()
     page.get_by_placeholder("Username").fill("Admin")
     page.get_by_placeholder("Password").click()
-    page.get_by_placeholder("Password").fill("admin123")
+    page.get_by_placeholder("Password").fill(utils.secret_config.PASSWORD)
     page.get_by_role("button", name="Login").click()
     page.wait_for_load_state("networkidle")
     expect(page.get_by_role("button", name="Login")).to_be_hidden()

@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7f6f1db-7584-43a1-a55d-993af3e77d2b" name="Changes" comment="edited yml file">
+    <list default="true" id="a7f6f1db-7584-43a1-a55d-993af3e77d2b" name="Changes" comment="edited test three to pass">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/secret_config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests_ui_layout/test_three.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests_ui_layout/test_three.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests_ui_layout/test_one.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests_ui_layout/test_one.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +187,21 @@
       <option name="project" value="LOCAL" />
       <updated>1719262238265</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="edited test three to pass">
+      <created>1719262682233</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719262682233</updated>
+    </task>
+    <task id="LOCAL-00006" summary="edited test three to pass">
+      <created>1719262696702</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719262696702</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,7 +220,8 @@
     <MESSAGE value="first" />
     <MESSAGE value="all test cases" />
     <MESSAGE value="edited yml file" />
-    <option name="LAST_COMMIT_MESSAGE" value="edited yml file" />
+    <MESSAGE value="edited test three to pass" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited test three to pass" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
