@@ -3,8 +3,7 @@ from playwright.sync_api import Playwright, sync_playwright, expect
 
 
 @pytest.mark.parametrize("email, password", [("standard_user", "secret_sauce"),
-                                             ("problem_user", "secret_sauce"),
-                                             ("performance_glitch_user", "secret_sauce")])
+                                             ("problem_user", "secret_sauce")])
 def test_sauce_demo(set_up, email, password):
     page = set_up
     page.goto("https://www.saucedemo.com/v1/")

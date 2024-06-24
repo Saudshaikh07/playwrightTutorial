@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7f6f1db-7584-43a1-a55d-993af3e77d2b" name="Changes" comment="all test cases">
-      <change afterPath="$PROJECT_DIR$/combined_command.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/regression_report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots_failed_test/tests-ui-layout-test-one-py-test-login-chromium/test-failed-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_ui_layout/test_new.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/python-app.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/python-app.yml" afterDir="false" />
+    <list default="true" id="a7f6f1db-7584-43a1-a55d-993af3e77d2b" name="Changes" comment="edited yml file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests_ui_layout/test_four.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests_ui_layout/test_four.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests_ui_layout/test_one.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests_ui_layout/test_one.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests_ui_layout/test_three.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests_ui_layout/test_three.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests_ui_layout/test_two.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests_ui_layout/test_two.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716298541506</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="edited yml file">
+      <created>1719262238265</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719262238265</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,7 +202,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first" />
     <MESSAGE value="all test cases" />
-    <option name="LAST_COMMIT_MESSAGE" value="all test cases" />
+    <MESSAGE value="edited yml file" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited yml file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
