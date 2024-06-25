@@ -1,6 +1,13 @@
+import os
+
 import pytest
 from playwright.sync_api import Playwright, sync_playwright, expect
 
+try:
+    PASSWORD = os.environ['PASSWORD']
+except KeyError:
+    import utils.secret_config
+    PASSWORD = utils.secret_config.PASSWORD
 
 @pytest.mark.parametrize("email, password", [("standard_user", "secret_sauce"),
                                              ("problem_user", "secret_sauce")])
@@ -11,7 +18,7 @@ def test_sauce_demo(set_up, email, password):
     page.locator("[data-test=\"username\"]").click()
     page.locator("[data-test=\"username\"]").fill(email)
     page.locator("[data-test=\"password\"]").click()
-    page.locator("[data-test=\"password\"]").fill(password)
+    page.locator("[data-test=\"password\"]").fill(PASSWORD)
     page.get_by_role("button", name="LOGIN").click()
     all_price = page.get_by_text("$").all()
 

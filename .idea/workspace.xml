@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7f6f1db-7584-43a1-a55d-993af3e77d2b" name="Changes" comment="moved password to utils/secret_config.py file">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/python-app.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/python-app.yml" afterDir="false" />
+    <list default="true" id="a7f6f1db-7584-43a1-a55d-993af3e77d2b" name="Changes" comment="added password secrets to yml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests_ui_layout/test_one.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests_ui_layout/test_one.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests_ui_layout/test_three.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests_ui_layout/test_three.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719263333305</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added password secrets to yml">
+      <created>1719263762308</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1719263762308</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,7 +233,8 @@
     <MESSAGE value="edited yml file" />
     <MESSAGE value="edited test three to pass" />
     <MESSAGE value="moved password to utils/secret_config.py file" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved password to utils/secret_config.py file" />
+    <MESSAGE value="added password secrets to yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="added password secrets to yml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
